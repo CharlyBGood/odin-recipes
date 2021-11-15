@@ -2,6 +2,17 @@
     box-sizing: border-box;
 }
 
-ul {
-    display: flex;
+h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+a {
+    display: block;
+    margin: 1em auto;
+    text-align: center;
 }
