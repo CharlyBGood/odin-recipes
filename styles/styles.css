@@ -10,6 +10,7 @@ body {
 }
 
 h1 {
+    margin: .3em;
     text-align: center;
 }
 
@@ -36,4 +37,11 @@ h1 {
 
 .links a:hover {
     color: #589718;
+}
+
+.links p {
+    margin: .5em auto;
+    width: 80%;
+    font-size: 1em;
+    color: #2a4114;
 }
