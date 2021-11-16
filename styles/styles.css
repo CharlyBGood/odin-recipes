@@ -6,13 +6,27 @@ h1 {
     text-align: center;
 }
 
-img {
+.image {
     display: block;
     margin: 0 auto;
+    width: 50%;
 }
 
-a {
-    display: block;
+.links {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     margin: 1em auto;
     text-align: center;
+}
+
+.links a {
+    color: #245e27;
+    letter-spacing: .2em;
+    text-decoration: none;
+    margin: .3em auto;
+}
+
+.links a:hover {
+    color: #589718;
 }
