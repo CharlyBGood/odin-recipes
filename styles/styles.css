@@ -9,13 +9,14 @@ html {
 body {
     padding: 0;
     margin: 0;
-    height: 100vh;
     background-color: #a9d6bc;
+    height: 100%;
 }
 
 header, article {
+    margin: 0 auto;
     width: 100%;
-    height: auto;
+    height: 100vh;
 }
 
 h1 {
@@ -60,7 +61,7 @@ ol li, h1, h2, b {
     color: #245e27;
     letter-spacing: .11em;
     text-decoration: none;
-    margin: .3em auto;
+    margin: .2em auto;
     list-style-type: none;
 }
 
