@@ -1,5 +1,8 @@
-* {
+html {
     box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
 }
 
 body {
@@ -18,6 +21,7 @@ h1 {
     display: block;
     margin: 0 auto;
     width: 21em;
+    border-radius: 0 65em 18em 11.3em;
 }
 
 .links {
