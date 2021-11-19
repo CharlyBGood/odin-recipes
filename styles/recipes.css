@@ -40,15 +40,26 @@ ol li, h1, h2, p {
     letter-spacing: .11em;
 }
 
-a, ul li {
+p, ol li {
+    font-size: 1.1em;
+}
+
+.article h2 {
+    text-align: left;
+}
+
+.article a, .article ul li {
     color: #245e27;
     letter-spacing: .11em;
     text-decoration: none;
     margin: 1em auto;
     list-style-type: none;
+    padding: .3em;
+    width: 100%;
 }
 
 a {
+    text-align: center;
     cursor: pointer;
 }
 
