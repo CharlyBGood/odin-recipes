@@ -1,0 +1,57 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #a9d6bc;
+}
+
+h1, h2 {
+    margin: .3em;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100vh;
+}
+
+.recipe_img {
+    width: 60%;
+    margin: 0 auto;
+}
+
+ol li, h1, h2, p {
+    margin: .3em auto;
+    color: #2b5815;
+    text-shadow: 3px 2px #7efc003f;
+    padding: .4em;
+    width: 80%;
+    letter-spacing: .11em;
+}
+
+a, ul li {
+    color: #245e27;
+    letter-spacing: .11em;
+    text-decoration: none;
+    margin: 1em auto;
+    list-style-type: none;
+}
+
+a {
+    cursor: pointer;
+}
+
+a:hover {
+    color: #589718;
+}
