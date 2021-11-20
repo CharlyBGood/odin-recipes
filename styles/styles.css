@@ -28,7 +28,7 @@ h1 {
 
 .links {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: column;
     margin: 1em auto;
     text-align: center;
@@ -47,8 +47,37 @@ h1 {
 }
 
 .links p {
-    margin: .5em auto;
+    margin: .3em auto;
     width: 80%;
     font-size: 1em;
     color: #2a4114;
+}
+
+.links_item {
+    padding: .3em;
+    width: 60%;
+}
+
+.links_item_1 {
+    margin: 0 auto;
+    border-top: 3px double #589718;
+    border-radius: 2em;
+}
+
+.links_item_2 {
+    margin: 0 auto;
+    border-top: 4px double #971818;
+    border-radius: 1em;
+}
+
+.links_item_3 {
+    margin: 0 auto;
+    border-top: 4px double #c58d13;
+    border-radius: 3em;
+}
+
+.links_item_4 {
+    margin: 0 auto;
+    border-top: 4px double transparent;
+    border-radius: 3em;
 }
