@@ -9,20 +9,22 @@ html {
 body {
     padding: 0;
     margin: 0;
-    background-color: #a9d6bc;
+    background-color: #5177616c;
     height: 100%;
 }
 
 h1 {
     margin: .3em;
     text-align: center;
+    color: #2b5815;
+    text-shadow: 3px 1px #7efc003f;
 }
 
 .image {
     display: block;
     margin: 0 auto;
     width: 21em;
-    border-radius: 0 65em 18em 11.3em;
+    border-radius: 7em;
 }
 
 
@@ -78,6 +80,6 @@ h1 {
 
 .links_item_4 {
     margin: 0 auto;
-    border-top: 4px double transparent;
+    border-top: 4px double rgb(20, 59, 12);
     border-radius: 3em;
 }
